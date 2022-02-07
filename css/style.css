@@ -3,7 +3,7 @@
 #000b42b8; */
 /* Global Css */
 body {
-    font-family: nunito;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     background: #f5f8fb;
     overflow-x: hidden;
@@ -317,6 +317,8 @@ button:focus {
     color: #212121;
     border-radius: 2px;
     transition: all 200ms linear;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #navigation-wrapper .dropdown-item:hover,
@@ -784,7 +786,7 @@ i.box-circle-solid {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 #why-choose-us .card-items .card:hover {
@@ -833,7 +835,7 @@ i.box-circle-solid {
     align-items: center;
     height: 50px;
     width: 50px;
-    padding: 15px;
+    padding: 30px;
 }
 
 #why-choose-us .card-items .card .card-body .card-title {
