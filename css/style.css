@@ -3,7 +3,8 @@
 #000b42b8; */
 /* Global Css */
 body {
-    font-family: 'Red Hat Display', sans-serif;
+    /* font-family: 'Red Hat Display', sans-serif; */
+    font-family: 'nunito';
     font-weight: 400;
     background: #f5f8fb;
     overflow-x: hidden;
