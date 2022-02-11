@@ -47,3 +47,59 @@ $(document).ready(function () {
     });
 });
 // Brand Partners Carousel Ends
+
+// Category Slick Slider Starts
+$('.slick-slider-category').slick({
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    responsive: [{
+            breakpoint: 1400,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 1080,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 780,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 325,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+        }
+    ]
+});
+// Category Slick Slider Ends

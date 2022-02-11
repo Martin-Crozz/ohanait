@@ -482,6 +482,97 @@ button:focus {
 }
 
 /* Carousel Slider Ends */
+
+
+/* Our Team Section Starts */
+
+#our-team-wrapper {
+    background: #000b42b8;
+
+}
+
+#our-team-wrapper .team-block {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    background: #f7f7f7;
+    position: relative;
+
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#our-team-wrapper .team-block:hover {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+#our-team-wrapper .team-block:hover .name-designation {
+    visibility: hidden;
+}
+
+#our-team-wrapper .team-block:hover .list-inline {
+    visibility: visible;
+}
+
+#our-team-wrapper .team-block:hover .team-img {
+    transform: scale(1.2);
+}
+
+#our-team-wrapper .team-img {
+    transform: scale(1);
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+
+#our-team-wrapper .team-img img {
+    max-height: 200px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#our-team-wrapper .team-content a {
+    text-decoration: none;
+    color: #000b42b8;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#our-team-wrapper .team-content .social-icon {
+
+    font-size: 1.5rem;
+
+}
+
+#our-team-wrapper .team-content {
+    overflow: hidden;
+
+    position: relative;
+    background: #f7f7f7;
+}
+
+#our-team-wrapper .team-block.name-designation {
+    visibility: hidden;
+}
+
+#our-team-wrapper .team-block .name-designation span {
+    font-size: 0.8rem;
+}
+
+#our-team-wrapper .list-inline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+/* Our Team Section Ends */
+
 /* Newsletter Start */
 #newsletter {
     background: #C33764;
@@ -857,6 +948,70 @@ i.box-circle-solid {
 }
 
 /* why-choose-us section ends */
+/*Join Us */
+#join-us {
+    background-color: #000b42b8;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+
+}
+
+
+
+#join-us .content-title,
+.content-title h4 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#join-us .content-title h4 {
+    /* color: #000b42b8; */
+    font-weight: bold;
+    color: #54a6b8;
+}
+
+#join-us .content-wrap li {
+    font-weight: bold;
+    color: white;
+
+}
+
+#join-us .image img {
+    max-height: 350px;
+    min-height: 350px;
+    object-position: center;
+    object-fit: contain;
+}
+
+
+/*Join Us Ends */
+/*QA  */
+#qa .content-title,
+.content-title h4 {
+    font-size: 2.5rem;
+
+}
+
+#qa .content-title {
+    /* color: #000b42b8; */
+    font-weight: bold;
+    color: #000b42b8;
+}
+
+#qa .content-wrap li {
+    font-weight: bold;
+
+
+}
+
+#qa .image img {
+    max-height: 350px;
+    min-height: 350px;
+    object-position: center;
+    object-fit: contain;
+}
+
+
+/*QA Ends */
 /* Testimonial Starts */
 #testimonial {
     background: #000b42b8;
@@ -938,7 +1093,6 @@ h2::after {
     height: 60px;
     margin-top: -20px;
     top: 50%;
-    border: 2px solid white;
 }
 
 #testimonial .carousel-control i {
@@ -1019,6 +1173,24 @@ h2::after {
 }
 
 /* Blog Ends */
+/* Contact Us */
+#contact-us .content-wrap li span .fa {
+    color: #54a6b8;
+}
+
+#contact-us .image img {
+    max-height: 350px;
+    min-height: 350px;
+    object-position: center;
+    object-fit: contain;
+}
+
+#contact-us .discription {
+    font-size: 1.2rem;
+    color: #54a6b8;
+}
+
+/* Contact Us Ends */
 /* footer Section Starts */
 #footer .footer-logo a img {
     max-height: 110px;
