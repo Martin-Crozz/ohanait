@@ -23,32 +23,7 @@ $('body').on('mouseenter mouseleave', '.nav-item', function (e) {
 
 // End My cart show on Hover
 
-// Brand Partners Carousel
-$(document).ready(function () {
-    $('.brand-partners-wrapper').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-});
-// Brand Partners Carousel Ends
-
-// Category Slick Slider Starts
+// Our Team Starts
 $('.slick-slider-category').slick({
     infinite: true,
     slidesToShow: 6,
@@ -102,4 +77,70 @@ $('.slick-slider-category').slick({
         }
     ]
 });
-// Category Slick Slider Ends
+// Our Team Ends
+
+
+
+// Product Detail Slider Starts
+$('.product-detail-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    arrows: false,
+    dots: true,
+    responsive: [{
+            breakpoint: 1400,
+            settings: {
+                slidesToShow: 3,
+                      }
+        },
+        {
+            breakpoint: 1080,
+            settings: {
+                slidesToShow: 3,
+                      }
+        },
+        {
+            breakpoint: 780,
+            settings: {
+                slidesToShow: 4,
+                      }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+          
+                dots: true
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+          
+                dots: true
+            }
+        },
+        {
+            breakpoint: 325,
+            settings: {
+                slidesToShow: 1,
+          
+                dots: true
+            }
+        }
+    ]
+});
+// Product Detail Slider Ends
+
+// Product Detail Ads Slider Starts
+$('.product-detail-ads-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+  
+});
+// Product Detail Ads Slider Ends
