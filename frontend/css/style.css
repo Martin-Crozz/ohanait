@@ -311,7 +311,7 @@ button:focus {
 }
 
 #navigation-wrapper .nav-item .dropdown-menu {
-    transform: translate3d(0, 10px, 0);
+    transform: translateX(-60px);
     visibility: hidden;
     opacity: 0;
     max-height: 0;
@@ -325,7 +325,7 @@ button:focus {
     opacity: 1;
     visibility: visible;
     max-height: 999px;
-    transform: translate3d(0, 0px, 0);
+    transform: translateX(-60px);
 }
 
 #navigation-wrapper .dropdown-menu {
@@ -1513,6 +1513,8 @@ hr {
         margin-top: 10px !important;
         margin-bottom: 20px !important;
     }
+
+
 }
 
 @media (max-width: 1400px) {}
@@ -1523,6 +1525,57 @@ hr {
     #universities .slick-slide img {
         max-height: 80px;
         min-height: 80px;
+    }
+}
+
+@media (max-width:778px) {
+    #slider .discription {
+
+        transform: translate(10%, -50%);
+        width: 80%;
+    }
+}
+
+@media (max-width:426px) {
+
+    #slider .carousel-inner .carousel-item img {
+        height: 50vh;
+    }
+
+    #who-are-we .image-head-why-us img {
+
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    #about-us-wrapper .image-header img {
+        max-height: 200px;
+        min-height: 200px;
+    }
+
+    #about-us-wrapper .mission-vision h3 {
+        text-align: center;
+    }
+
+    #testimonial .carousel {
+
+        padding: 0 25px;
+    }
+
+    #footer .row,
+    .d-flex {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .title-description-wrapper .title h1 {
+        font-size: 1.8rem;
+    }
+
+    #contact-us .contact-form {
+        padding: 10px;
+        text-align: center;
+
     }
 }
 
